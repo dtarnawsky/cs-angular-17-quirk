@@ -1,0 +1,42 @@
+{
+  "name": "demo-angular7",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "https://ionicframework.com/",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/platform-browser": "^16.0.2",
+    "@angular/platform-browser-dynamic": "^16.0.2",
+    "@angular/router": "^16.0.2",
+    "@capacitor/app": "^5.0.2",
+    "@capacitor/core": "^5.0.3",
+    "@capacitor/haptics": "^5.0.2",
+    "@capacitor/keyboard": "^5.0.2",
+    "@capacitor/status-bar": "^5.0.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.0.2",
+    "@angular-eslint/builder": "^16.0.3",
+    "@angular-eslint/eslint-plugin": "^16.0.3",
+    "@angular-eslint/eslint-plugin-template": "^16.0.3",
+    "@angular-eslint/template-parser": "^16.0.3",
+    "@capacitor/cli": "^5.0.3",
+    "@types/jasmine": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "karma": "^6.4.1",
+    "karma-coverage": "^2.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0"
+  },
+  "description": "An Ionic project"
+}
